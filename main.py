@@ -18,7 +18,7 @@ def on_message(data):
     empresa = "ALUN IDEAS"
     tipoVisitante = "VISITANTE"
     asistenteId = "ASJDUFNESKFSDLFKJSDLKFJSDL - UUID"
-    impresoraAsignada = "GT800-1"
+    impresoraAsignada = "GT800_01"
     label = """
     ^XA
     ^FO100, 30
