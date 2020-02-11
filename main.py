@@ -51,5 +51,5 @@ def message(data):
 def disconnect():
     print('disconnected from server')
 
-sio.connect('http://localhost:3000')
+sio.connect('https://socketprint.alunideas.co')
 sio.wait()
