@@ -13,8 +13,8 @@ def on_message(data):
         # return re.sub('|'.join(repls.keys()), lambda k: repls[k.group(0)], str)
             return re.sub('|'.join(re.escape(key) for key in repls.keys()),
             lambda k: repls[k.group(0)], str) 
-    nombreAsistente = "JEFFERSON"
-    apellidoAsistente = "AGUILAR"
+    nombreAsistente = data.username
+    apellidoAsistente = data.message
     empresa = "ALUN IDEAS"
     tipoVisitante = "VISITANTE"
     asistenteId = "ASJDUFNESKFSDLFKJSDLKFJSDL - UUID"
