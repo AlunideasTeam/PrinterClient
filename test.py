@@ -18,5 +18,5 @@ label = """
 ^XZ
 """
 from zebra import zebra
-z = zebra("GT800-1")
+z = zebra("GT800_01")
 z.output(label)
